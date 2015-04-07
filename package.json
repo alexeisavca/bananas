@@ -12,5 +12,8 @@
     "react",
     "node",
     "cms"
-  ]
+  ],
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }
