@@ -14,6 +14,7 @@
     "cms"
   ],
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "npm": "^2.7.5"
   }
 }
