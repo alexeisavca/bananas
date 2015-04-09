@@ -1,3 +1,4 @@
+var path = require('path');
 module.exports = {
     entry: "./bundles/install.jsx",
     output: {
@@ -10,6 +11,10 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.js', '.jsx'],
+        alias:{
+            "component-provider": path.join(__dirname, '/modules/component-provider'),
+            "module-provider": path.join(__dirname, '/modules/module-provider')
+        }
     }
 };
