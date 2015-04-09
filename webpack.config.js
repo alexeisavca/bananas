@@ -8,5 +8,8 @@ module.exports = {
         loaders: [
             { test: /\.jsx?$/, loaders: ['jsx?harmony'] }
         ]
+    },
+    resolve: {
+        extensions: ['', '.js', '.jsx']
     }
 };
