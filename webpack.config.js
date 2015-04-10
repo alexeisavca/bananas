@@ -1,9 +1,12 @@
 var path = require('path');
 module.exports = {
-    entry: "./bundles/install.jsx",
+    entry: {
+        install: "./bundles/install.jsx",
+        frontend: "./bundles/frontend.jsx"
+    },
     output: {
         path: './concat/',
-        filename: "install.js"
+        filename: "[name].js"
     },
     module: {
         loaders: [
