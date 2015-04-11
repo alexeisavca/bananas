@@ -1,5 +1,4 @@
 var style = require('!css!less!./style.less');
-console.log('' + style);
 module.exports = class extends React.Component{
     render (){
         return (
