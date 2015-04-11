@@ -5,7 +5,7 @@ module.exports = class extends React.Component{
         return (
             <div className="user-bar">
                 <style dangerouslySetInnerHTML={{__html: "\n" + style}}/>
-                <img src="https://placekitten.com/g/50/50" alt="" className="avatar"/>
+                <img src="https://placekitten.com/g/50/50" alt="" className="avatar" width="50" height="50"/>
                 &nbsp;
                 <strong>Alexei Savca</strong>
             </div>
